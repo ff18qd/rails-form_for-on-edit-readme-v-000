@@ -1186,6 +1186,7 @@ Started GET "/posts/1" for 127.0.0.1 at 2017-12-22 20:32:01 +0000
 Processing by PostsController#show as HTML
   Parameters: {"id"=>"1"}
   [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+<<<<<<< HEAD
   Rendered posts/show.html.erb within layouts/application (3.5ms)
 Completed 200 OK in 236ms (Views: 214.9ms | ActiveRecord: 0.2ms)
   [1m[35m (0.2ms)[0m  rollback transaction
@@ -1265,3 +1266,5 @@ Processing by PostsController#show as HTML
   Rendered posts/show.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms)
   [1m[36m (0.2ms)[0m  [1mrollback transaction[0m
+=======
+>>>>>>> a29fc74c578fd110979c4f1f5f6e40f9fb2acb0a
